@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap');
+
+
+
+body {
+    color: #212121;
+    font-family: "Roboto", "Raleway";
+    font-size: 14px;
+    text-decoration: none;
+    
+    }
+    ul {list-style: none;}
+
+   /* Header*/
+     
+     .header-contact {
+         color: #757575;
+         
+         
+     }
+     nav ul li a:link  {
+        color:#212121 ;
+     }
+
+    nav ul li a:hover, 
+    nav ul li a:focus {
+        color: #2196F3;
+        line-height: 1.4;
+                }
+        
+        
+
+        nav ul li a:active {
+            color: orange;
+        }
+
+        ul li a:link, ul li a:focus {
+           
+           text-decoration: none;
+            }
+            
+            ul li a:hover {
+            color: #2196F3;
+           
+            }
+           
+            ul li a:active {
+                color: orange;}
+
+
+
+ 
+
+
+.h1-button { background:#2F303A;
+    
+}
+
+
+
+h1 { 
+        
+        color: white;
+        font-size: 44px;
+        line-height: 1.4;
+        text-align: center;
+        
+      }
+
+.hero-button {
+    font-size: 16px;
+    cursor: pointer;
+}
+    .hero-button:hover { 
+    color: #ffffff;  
+    background-color: #2196F3;
+    }
+    
+    .hero-button:active {
+     color: orange;
+    
+    
+}
+   
+.webstudio {
+    color:#2196F3;
+    font-size: 26px;
+    font-family: Raleway;
+    line-height: 1.4;
+    text-decoration: none;
+    width: 145px;
+    height: 31px;
+    left: 215px;
+    top: 2157px;
+
+
+}
+
+h2 {text-align: center;
+    font-size: 36px;
+    
+
+}
+h3 {font-size: 16px;
+}
+  
+p{
+    color: #757575;
+ }   
+
+/* Our Team */
+
+
+.our-team-section { background-color: #F5F4FA; 
+font-size: 16px;
+
+}
+
+.our-team-h3-p {text-align: center;}
+
+
+
+
+/*Footer*/
+
+
+.footer { 
+   background-color: #2f303a;
+   line-height: 1.71;
+   height: 252px;
+   left: 0px;
+   top: 2097px;
+ }
+
+ .footer-address{
+    color: #ffffff;
+    
+ }
+
+ .footer-link {
+    color:#FFFFFF99;
+    
+    
+    
+    }
