@@ -13,7 +13,7 @@
 
 body{
     
-    font-family: "Roboto", "sans serif";
+    font-family: "Roboto", sans serif;
     font-style: normal;
     font-size: 14px;
     color: var(--maintext-color)
@@ -127,6 +127,7 @@ ul{list-style: none;}
    
 
 .hero-button {
+   font-family: Roboto;
    font-weight: 700;
    font-size: 16px;
    line-height: 1.88;
@@ -282,6 +283,7 @@ letter-spacing: 0.03em;
 
 
     .project-hero-button{
+        font-family: Roboto;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.63;
