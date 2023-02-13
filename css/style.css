@@ -10,15 +10,23 @@
 }
 
 
+
 body{
     
-    font-family: "Roboto";
+    font-family: "Roboto", "sans serif";
     font-style: normal;
     font-size: 14px;
-    list-style: none;
     color: var(--maintext-color)
 
 }
+
+ul{list-style: none;}
+
+
+/* Header */
+
+
+
 
     .header-logo, .footer-logo {
         font-family: Raleway;
@@ -48,14 +56,12 @@ body{
           
 .header-nav:hover,
 .header-nav:focus {
-    color: var(--secondtext-color);   
-    background-color: #2196F3;}
+    color: #2196F3;}
 
 
         
 .active{
-    color:var(--secondtext-color);   
-    background-color: #2196F3;}
+    color: #2196F3;}
 
         
 
@@ -69,7 +75,9 @@ body{
 
 
    /* Header contact*/
-     
+   
+  
+
      .header-contact {
      font-weight: 500;
      line-height: 1.14;
@@ -86,7 +94,7 @@ body{
        
 }
        
-.header-contact:active {
+   .header-contact:active {
     color: orange;}         
 
 
@@ -119,7 +127,6 @@ body{
    
 
 .hero-button {
-   font-family: "Roboto"; 
    font-weight: 700;
    font-size: 16px;
    line-height: 1.88;
@@ -138,19 +145,65 @@ body{
     }
     
     .hero-button:active {
-     color: var(--maintext-color);}
+     color: yellow;}
     
 
+/* Our features*/
 
+.features-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+}
+
+.features-item-title{
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+}
+
+.features-item-text{
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color:var(--thirdtext-color);
+}
+
+
+/* What we do*/
+
+.what-we-do-title{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: 0.03em;
+}
 
 /* Our Team */
 
 
 .our-team-section { 
-   background-color: #F5F4FA; 
+      background-color: #F5F4FA; 
+   
    }
 
-.our-team-memeber {
+.out-team-title{
+   font-weight: 700;
+   font-size: 36px;
+   line-height: 1.17;
+   text-align: center;
+   letter-spacing: 0.03em;
+   }
+
+.our-team-member {
     font-size: 16px; 
     line-height: 1.19;
     font-weight: 500;
@@ -172,28 +225,38 @@ body{
 /*Footer*/
 
 
+
 .footer { 
-   background-color:var(--second-bg-color);
-   width: 1600px;
-   height: 252px;
-   left: 0px;
-   top: 2097px;
+      background-color:var(--second-bg-color);
+      
    
  }
 
+ .address{
+    display: block;
+    font-style: normal;}
+
  .footer-address {
-    font-style: normal;
-   font-weight: 400;
-    font-size: 14px;
+   
+    font-weight: 400;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: var(--secondtext-color);
     text-decoration: none;
+    color: var(--secondtext-color);
+    
  }
 
+   .footer-address:hover,
+   .footer-address:focus{ 
+   color: #2196F3;
+   }
+   
+   .footer-address :active {
+    color: yellow;}
+
+
  .footer-link {
-    font-weight: 400;
-   font-size: 14px;
+   font-weight: 400;
    line-height: 1.71;
    letter-spacing: 0.03em;
    color:#FFFFFF99;
@@ -201,47 +264,24 @@ body{
     
     }
 
+    .footer-link:hover,
+    .footer-link:focus{ 
+   color: #2196F3;
+   }
+   
+   .footer-link:active {
+    color: yellow;}
 
-address ul li a:hover,
-address ul li a:focus {
-        color: #2196F3;
-       
-}
-      
-address ul li a:active {
-    color: orange;}
 
-h2 {
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 1.16;
-        text-align: center;
-        letter-spacing: 0.03em;
-        
-          
-    }
-        
-    h3 {
-        font-weight: 700;
-        line-height: 1.14;
-        letter-spacing: 0.03em;
-        
-    }
-      
-    p {
-        font-weight: 400;
-        line-height: 1.71;
-        letter-spacing: 0.03em;
-        color: var(--thirdtext-color)
-     }   
-
-     ul {list-style: none;}
+ 
+   
+    
+  
 
      /* Portfolio*/
 
 
     .project-hero-button{
-        font-family: "Roboto"; 
         font-weight: 500;
         font-size: 16px;
         line-height: 1.63;
@@ -249,8 +289,8 @@ h2 {
         text-align: center;
         letter-spacing: 0.03em;
         cursor: pointer;
-        color: var(--maintext-color);   
-        background-color: ;
+          
+        
      }
          .project-hero-button:hover,
          .project-hero-button:focus{ 
@@ -259,23 +299,36 @@ h2 {
          }
          
          .project-hero-button:active {
-          color: var(--maintext-color);}
+          color: yellow;}
 
 
 
     
 
      .project-name{ 
-        font-size: 18px;
-        line-height: 2;
-        letter-spacing: 0.06em;
+     font-weight: 700;
+     font-size: 18px;
+     line-height: 2.00;
+     letter-spacing: 0.06em;
+     
     }
     
     .project-type{
-        font-size: 16;
-        line-height: 1.88;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.88;      
+        letter-spacing: 0.03em;
+        color:var(--thirdtext-color)
     
+   
     }
+
+
+    .portfolio-address{
+        display: block;
+        font-style: normal;}
+
+
 
     .portfolio-footer { 
         background-color:var(--second-bg-color);
@@ -283,3 +336,41 @@ h2 {
         height: 252px;
         left: 0px;
         top: 1628px;}
+
+        .portfolio-footer-address {
+   
+            font-weight: 400;
+            line-height: 1.71;
+            letter-spacing: 0.03em;
+            color: var(--secondtext-color);
+            text-decoration: none;
+         }
+        
+         
+        
+         .portfolio-footer-address:hover,
+         .portfolio-footer-address:focus{ 
+          color: #2196F3;
+           }
+           
+           .portfolio-footer-address :active {
+            color: yellow;}
+        
+        
+         .portfolio-footer-link {
+           font-weight: 400;
+           line-height: 1.71;
+           letter-spacing: 0.03em;
+           color:#FFFFFF99;
+           text-decoration: none;
+            
+            }
+        
+            .portfolio-footer-link:hover,
+            .portfolio-footer-link:focus{ 
+           color: #2196F3;
+           }
+           
+           .portfolio-footer-link:active {
+            color: yellow;}
+        
