@@ -1,109 +1,156 @@
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
-  <link rel="stylesheet" href="css/style.css">
 
-    <title>Homework 2</title>
+ <!-- Normalizer -->
 
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"/>
+
+ <!-- My styles next -->
+ 
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+
+
+    <title>Homework 3</title>
     
   </head>
 
   <body>
-    <header>
+    <header class="header">
       <a class="header-logo" href="./index.html">WebStudio</a>
 
-      <nav>
-        <ul>
+      <nav class="nav">
+        <ul class="nav-list">
           <li>
             <a class="header-nav" href="./index.html">Studio</a>
           </li>
-          <li><a class="header-nav active" href="Portfolio.html">Portfolio</a></li>
+          <li><a class="header-nav active" href="portfolio.html">Portfolio</a></li>
           <li><a class="header-nav" href="#">Contacts</a></li>
         </ul>
       </nav>
 
-      <ul>
+      <ul class="contact-list">
         <li><a class="header-contact" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
         <li><a class="header-contact" href="tel:+12127724150">+1 212-772-4150</a></li>
       </ul>
     </header>
 
     <main>
-      <section class="project">
-        <ul class="hero-button-list"> 
-            <li><button class="project-hero-button" type="button">All</button></li>
-            <li> <button class="project-hero-button" type="button">Web-sites</button></li>
-            <li><button class="project-hero-button" type="button">Apps</button></li>
-            <li><button class="project-hero-button" type="button">Design</button></li>
-            <li><button class="project-hero-button" type="button">Marketing</button></li>
+      <section class="project-section">
+        <ul class="project-hero-button-list"> 
+            <li>
+              
+                 <button class="project-hero-button" type="button">All</button>
+                 
+                </li>
+            <li> 
+              
+              <button class="project-hero-button" type="button">Web-sites</button>
+            
+          </li>
+            <li>
+              
+              <button class="project-hero-button" type="button">Apps</button>
+            
+            </li>
+            <li>
+              
+              <button class="project-hero-button" type="button">Design</button>
+            
+            </li>
+            <li>
+              
+              <button class="project-hero-button" type="button">Marketing</button>
+            
+            </li>
         
         </ul>
-       
      
-        <ul class="img-list">
+     
+        <ul class="project-img-list">
           <li>
-            <img
-              src="images/technoducklaptop.jpg" alt="Laptop with Technoduck Web-site" width="350">
+            <div class="project-card">
+            <img class="project-img" src="images/technoducklaptop.jpg" alt="Laptop with Technoduck Web-site" width="350">
              <h3 class="project-name">Technoduck</h3>
              <p class="project-type">Web-site</p> 
+            </div>
          </li>
        
          <li>
-            <img src="images/basketball-poster.jpg" alt="Poster with two basketball players jumping New Orlean vs Golden Star" width="350">
+          <div class="project-card">
+            <img class="project-img" src="images/basketball-poster.jpg" alt="Poster with two basketball players jumping New Orlean vs Golden Star" width="350">
             <h3 class="project-name">Poster New Orlean vs Golden Star</h3>
             <p class="project-type">Design</p> 
+          </div>
          </li>
          <li>
-            <img src="images/seafoodadvert.jpg" alt="The Seafood Restaurant Est. 2001" width="350">
+          <div class="project-card">
+            <img class="project-img" src="images/seafoodadvert.jpg" alt="The Seafood Restaurant Est. 2001" width="350">
             <h3 class="project-name">Seafood Restaurant</h3>
             <p class="project-type">Apps</p>
+          </div>
          </li>
           <li>
-            <img src="images/headphones.jpg" alt="Headphones" width="350">    
+            <div class="project-card">
+            <img class="project-img" src="images/headphones.jpg" alt="Headphones" width="350">    
             <h3 class="project-name">Project Prime</h3>
             <p class="project-type">Marketing</p>
+          </div>
          </li>
          <li>
-            <img src="images/projboxes.jpg" alt="One white box one brown box" width="350">    
+          <div class="project-card">
+            <img class="project-img" src="images/projboxes.jpg" alt="One white box one brown box" width="350">    
             <h3 class="project-name">Project Boxes</h3>
             <p class="project-type">Apps</p>
+          </div>
          </li>
          <li>
-            <img src="images/insperationmonitor.jpg" alt=" wide monitor with silverbase" width="350">    
+          <div class="project-card">
+            <img class="project-img" src="images/insperationmonitor.jpg" alt=" wide monitor with silverbase" width="350">    
             <h3 class="project-name">Insperation has no Borders</h3>
             <p class="project-type">Web-site</p>
+          </div>
          </li>
          <li>
-            <img src="images/lebook.jpg" alt="Open book with I'am Limited Edition on right page" width="350">    
+          <div class="project-card">
+            <img class="project-img" src="images/lebook.jpg" alt="Open book with I'am Limited Edition on right page" width="350">    
             <h3 class="project-name">Limited Edition</h3>
             <p class="project-type">Design</p>
+          </div>
          </li>
          <li>
-            <img src="images/label.jpg" alt="label with LAB EL TAG" width="350">    
+          <div class="project-card">
+            <img class="project-img" src="images/label.jpg" alt="label with LAB EL TAG" width="350">    
             <h3 class="project-name">Project LAB</h3>
             <p class="project-type">Marketing</p>
+          </div>
          </li>
          <li>
-            <img src="images/growinglaptop.jpg" alt="Open laptop with hand on keyboard" width="350">    
+          <div class="project-card">
+            <img class="project-img" src="images/growinglaptop.jpg" alt="Open laptop with hand on keyboard" width="350">    
             <h3 class="project-name">Growing Business</h3>
             <p class="project-type">Apps</p>
+          </div>
          </li>
         </ul>
+      </div>
       </section>
     </main>
 
     <footer class="portfolio-footer">
-      <a class="footer-logo" href="./index.html">WebStudio</a>
+      <a class="portfoloio-footer-logo" href="./index.html">WebStudio</a>
       <address class="portfolio-address">
-        <ul>
+        <div class="container">
+        <ul class= "portfolio-address-list"> 
           <li>
             <a class="portfolio-footer-address" href="https://goo.gl/maps/FMaEhHRnU3vR1jf47" target="_blank"
-              >695 Park Ave, New York, NY 10065, United States</a
-            >
+              >695 Park Ave, New York, NY 10065, United States</a>
           </li>
           <li><a class="portfolio-footer-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
           <li><a class="portfolio-footer-link" href="tel:+12127724150">+1 212-772-4150</a></li>
         </ul>
+      </div>
       </address>
     </footer>
   </body>
